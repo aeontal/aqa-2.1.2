@@ -25,7 +25,7 @@ public class PostmanQueryTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("проверка"))
+                .body("data", equalTo("Проверка"))
         ;
 
 
